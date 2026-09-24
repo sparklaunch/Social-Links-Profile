@@ -1,5 +1,20 @@
+:root {
+	--color-background: rgb(20, 20, 20);
+	--color-card: rgb(29, 29, 29);
+	--color-accent: rgb(183, 213, 101);
+	--color-button: rgb(45, 45, 45);
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: var(--color-background);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
