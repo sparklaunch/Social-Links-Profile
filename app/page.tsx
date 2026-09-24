@@ -16,27 +16,44 @@ export default function Home() {
 				<p className={styles.location}>London, United Kingdom</p>
 			</header>
 			<section>
-				<h2 className={styles.text}>
-					&quot;Front-end developer and avid reader.&quot;
-				</h2>
+				<blockquote className={styles.text}>
+					Front-end developer and avid reader.
+				</blockquote>
 			</section>
 			<footer className={styles.footer}>
-				<Link href="https://www.github.com" className={styles.link}>
+				<Link
+					href="https://www.github.com"
+					className={styles.link}
+					target="_blank"
+				>
 					GitHub
 				</Link>
 				<Link
 					href="https://www.frontendmentor.com"
 					className={styles.link}
+					target="_blank"
 				>
 					Frontend Mentor
 				</Link>
-				<Link href="https://www.linkedin.com" className={styles.link}>
+				<Link
+					href="https://www.linkedin.com"
+					className={styles.link}
+					target="_blank"
+				>
 					LinkedIn
 				</Link>
-				<Link href="https://www.x.com" className={styles.link}>
+				<Link
+					href="https://www.x.com"
+					className={styles.link}
+					target="_blank"
+				>
 					Twitter
 				</Link>
-				<Link href="https://www.instagram.com" className={styles.link}>
+				<Link
+					href="https://www.instagram.com"
+					className={styles.link}
+					target="_blank"
+				>
 					Instagram
 				</Link>
 			</footer>

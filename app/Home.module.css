@@ -42,6 +42,14 @@
 	text-align: center;
 }
 
+.text::before {
+	content: '"';
+}
+
+.text::after {
+	content: '"';
+}
+
 .footer {
 	display: flex;
 	flex-direction: column;
